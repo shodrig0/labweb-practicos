@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario1</title>
+    <link rel="stylesheet" href="sty1.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form class="formulario1">
+        <input
+          type="text"
+          name="formulario1"
+          id="form1"
+          placeholder="Ingrese su nombre"
+        />
+        <input type="submit" value="Enviar" />
+        <input type="reset" value="Reset" />
+      </form>
+      <form class="formulario2">
+        <input
+          type="text"
+          name="nombreUser"
+          id="nomUser"
+          placeholder="Pepito Goodstone"
+        />
+        <input
+          type="password"
+          name="passwordUser"
+          id="passUser"
+          placeholder="*********"
+        />
+        <input type="submit" value="Login" />
+        <input type="reset" value="Reset" />
+      </form>
+      <form class="formulario3">
+        <div>Colores:</div>
+        <ul>
+          <li><input type="checkbox" name="colores" /> Naranja</li>
+          <li><input type="checkbox" name="colores" />Verde</li>
+          <li><input type="checkbox" name="colores" />Blanco</li>
+          <li><input type="checkbox" name="colores" />Negro</li>
+          <li><input type="checkbox" name="colores" />Violeta</li>
+          <!-- <label
+            ><input type="checkbox" name="colors" value="verde" /> Verde</label
+          ><br />
+          <label
+            ><input type="checkbox" name="colors" value="azul" /> Azul</label
+          ><br />
+          <label
+            ><input type="checkbox" name="colors" value="amarillo" />
+            Amarillo</label
+          ><br />
+          <label
+            ><input type="checkbox" name="colors" value="blanco" />
+            Blanco</label
+          ><br />
+          <label
+            ><input type="checkbox" name="colors" value="negro" /> Negro</label
+          ><br />
+          <label
+            ><input type="checkbox" name="colors" value="naranja" />
+            Naranja</label
+          ><br />
+          <label
+            ><input type="checkbox" name="colors" value="violeta" />
+            Violeta</label
+          ><br /> -->
+        </ul>
+        <input type="submit" value="Enviar" />
+        <input type="reset" value="Reset" />
+      </form>
+      <form class="formulario4">
+        <div>Emails</div>
+        <ul>
+          <li><input type="checkbox" name="emails" />correo1@gmail.com</li>
+          <li><input type="checkbox" name="emails" />correo2@live.com</li>
+          <li><input type="checkbox" name="emails" />correo3@hotmail.com</li>
+        </ul>
+        <input type="submit" value="Enviar" />
+        <input type="reset" value="Reset" />
+      </form>
+      <form>
+        Nombre:
+        <textarea
+          type="text"
+          name="nombre"
+          id="nombreO"
+          placeholder="Pepito"
+          min="1"
+          max="40"
+        ></textarea>
+        Apellido:
+        <textarea
+          type="text"
+          name="apellidoO"
+          id="apellidoO"
+          placeholder="Goodstone"
+          min="1"
+          maxlength="40"
+        ></textarea>
+        Edad:
+        <textarea
+          type="number"
+          name="edadO"
+          id="edadO"
+          placeholder="46"
+          min="1"
+          maxlength="3"
+        ></textarea>
+        DNI:
+        <textarea
+          type="number"
+          name="DNI"
+          id="dniO"
+          placeholder="12345678"
+          min="1"
+          maxlength="8"
+        ></textarea>
+        <input type="submit" value="Enviar" />
+        <input type="reset" value="Reset" />
+      </form>
+      <form>
+        Nombre y Apellido:
+        <input
+          type="text"
+          name="nombre"
+          id="nombre"
+          placeholder="Pedro Piedrebuena"
+        />
+        Mayor de Edad:
+        <!-- ASÍ PARA LAS SOLAPAS
+        <select name="edadMayor" id="edadMayor">
+          <option value="si" selected>Si</option>
+          <option value="no">No</option>
+        </select> -->
+        <input type="radio" name="edadMayor" id="edadMayor" value="si" />
+        <label for="edadMayor">Sí</label>
+        <input type="radio" name="edadMayor" id="edadMayor" value="no" />
+        <label for="edadMayor">No</label>
+        Teléfono:
+        <input type="tel" name="telefono" id="telefono" value="0299-" />
+      </form>
+    </div>
+  </body>
+</html>

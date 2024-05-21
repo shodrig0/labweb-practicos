@@ -1,0 +1,31 @@
+form {
+  width: 300px;
+}
+
+table {
+  width: inherit;
+}
+
+table,
+th,
+tr,
+td {
+  border: 1px solid black;
+}
+
+th {
+  background-color: rgba(118, 72, 245, 0.397);
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  padding: 0;
+}
+
+form table tr .center {
+  display: flex;
+}

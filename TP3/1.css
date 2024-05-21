@@ -1,0 +1,13 @@
+.container {
+  overflow: hidden;
+  width: 50%;
+  background-color: rgb(197, 196, 196);
+}
+
+.prev {
+  float: left;
+}
+
+.next {
+  float: right;
+}

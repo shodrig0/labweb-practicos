@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FINAL BOSS</title>
+    <link rel="stylesheet" href="finalboss.css" />
+  </head>
+  <body>
+    <form>
+      <table>
+        <tr>
+          <th>Name</th>
+          <th>Value</th>
+        </tr>
+        <tr>
+          <td>Name</td>
+          <td>
+            <input type="text" />
+          </td>
+        </tr>
+        <tr>
+          <td>Sex</td>
+          <td>
+            <input type="radio" name="gen" id="genero" />
+            <label for="genero">Male</label><br />
+            <input type="radio" name="gen" id="genero" />
+            <label for="genero">Female</label>
+          </td>
+        </tr>
+        <tr>
+          <td>Eye color</td>
+          <td>
+            <select name="coloures" id="coloures">
+              <option value="green" selected>green</option>
+              <option value="blue">blue</option>
+              <option value="brown">brown</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>Check all that apply</td>
+          <td>
+            <ul>
+              <li>
+                <input type="checkbox" name="op1" id="1" />Over 6 feet tall
+              </li>
+              <li>
+                <input type="checkbox" name="op2" id="2" />Over 200 pounds
+              </li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td class="center">Describe your athletic ability:</td>
+        </tr>
+        <tr>
+          <td class="center">
+            <textarea name="descrip" id="description"></textarea>
+          </td>
+        </tr>
+        <tr>
+          <td class="center">
+            <input type="submit" value="Enter my information" />
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
